@@ -13,7 +13,7 @@ public class Magic8Ball {
 
         //initialize
 
-        System.out.println("I am a magic 8 ball, think of a question that is not Yes or No then type a number 1-100 and I will answer.");
+        System.out.println("I am a magic 8 ball, think of a question that is not yes or no then type a number 1-100 and I will answer.");
         question = keyboard.nextInt();
             if (0<question&&question<11) {
                 System.out.println("That does not seem likely.");
